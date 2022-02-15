@@ -1,23 +1,16 @@
 import * as React from "react";
-import { StaticImage } from "gatsby-plugin-image";
+
+import Header from "../components/Header";
 import CountDown from "../components/CountDown";
+import Footer from "../components/Footer";
 import "../scss/entry.scss";
 
 const IndexPage = () => {
 	return (
 		<>
+			<Header />
 			{CountDown()}
-			<StaticImage
-				src="../images/icon.png"
-				alt="Derp"
-				placeholder="blurred"
-				layout="fixed"
-				width={200}
-				height={200}
-			/>
-			<a href="https://www.google.com" className="btn ghost">
-				This is a button
-			</a>
+			<Footer />
 		</>
 	)
 }

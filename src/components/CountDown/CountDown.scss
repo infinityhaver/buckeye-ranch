@@ -1,8 +1,84 @@
+$blue: #99DAEA;
+$orange: #D34727;
+$gray: #979797;
+@font-face {
+	font-family: 'Archer-Bold';
+	src: url('../../fonts/Archer-Bold.woff2') format('woff2'),
+		 url('../../fonts/Archer-Bold.woff') format('woff');
+	font-weight: bold;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: 'Roboto-Regular';
+	src: url('../../fonts/Roboto-Regular.woff2') format('woff2'),
+		 url('../../fonts/Roboto-Regular.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
 .countdown-wrap {
+	border-top: 1px solid $gray;
+	border-bottom: 1px solid $gray;
+	margin: 50px 0;
+	@media screen and (min-width: 768px) {
+		display: flex;
+		flex-flow: row nowrap;
+		justify-content: center;
+	}
+	@media screen and (max-width: 768px) {
+		
+	}
 	.countdown-unit {
+		@media screen and (min-width: 768px) {
+			width: 25%;
+			display: flex;
+			flex-flow: column nowrap;
+			justify-content: center;
+			align-items: center;
+			border-right: 1px solid $gray;
+			padding: 35px 25px 25px;
+			&:last-of-type {
+				border-right: none;
+			}
+		}
+		@media screen and (max-width: 768px) {
+			border-bottom: 1px solid $gray;
+			padding: 35px 25px 25px;
+			text-align: center;
+			&:last-of-type {
+				border-bottom: none;
+			}
+		}
+		.number {
+			font-family: 'Archer-Bold';
+			padding-bottom: 15px;
+			font-size: 70px;
+			line-height: 70px;
+			@media screen and (min-width: 768px) {
+				
+			}
+			@media screen and (max-width: 768px) {
+				
+			}
+		}
+		.interval {
+			font-family: 'Roboto-Regular';
+			color: #6E6E6E;
+			font-size: 18px;
+			line-height: 21px;
+			letter-spacing: 1.93px;
+			text-transform: uppercase;
+			@media screen and (min-width: 768px) {
+				
+			}
+			@media screen and (max-width: 768px) {
+				
+			}
+		}
 		&.days {
 			.number {
-
+				color: $blue;
 			}
 			.interval {
 
@@ -10,7 +86,7 @@
 		}
 		&.hours {
 			.number {
-
+				color: $blue;
 			}
 			.interval {
 				
@@ -18,7 +94,7 @@
 		}
 		&.minutes {
 			.number {
-
+				color: $blue;
 			}
 			.interval {
 				
@@ -26,7 +102,7 @@
 		}
 		&.seconds {
 			.number {
-				
+				color: $orange;
 			}
 			.interval {
 				

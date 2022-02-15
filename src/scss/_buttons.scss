@@ -1,15 +1,19 @@
 .btn {
 	display: inline-block;
 	transition: all 0.5s ease;
-	font-size: 16px;
-	line-height: 22px;
-	letter-spacing: 1px;
+	font-size: 18px;
+	line-height: 39px;
+	letter-spacing: 1.93px;
+	font-family: 'Roboto-Bold';
+	text-transform: uppercase;
+	border-radius: 10px;
+	padding: 20px 20px;
 	&.solid {
 		background: $brand;
 		color: #fff;
 		border: 1px solid $brand;
 		&:hover {
-			background: #fff;
+			background: transparent;
 			color: $brand;
 		}
 	}
@@ -21,5 +25,12 @@
 			background: $brand;
 			color: $white;
 		}
+	}
+	&.btn-block {
+		display: block;
+		clear: both;
+		float: none;
+		width: 100%;
+		text-align: center;
 	}
 }

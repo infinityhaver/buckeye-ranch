@@ -1,8 +1,9 @@
+@import 'fonts';
 @import 'variables';
 @import 'buttons';
+@import 'home';
 
-.gatsby-image-wrapper {
-    img {
-        
-    }
+html,
+body {
+    background: rgba(206, 162, 120, .06);
 }

@@ -1,0 +1,29 @@
+@font-face {
+	font-family: 'Roboto-Regular';
+	src: url('../../fonts/Roboto-Regular.woff2') format('woff2'),
+		 url('../../fonts/Roboto-Regular.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+footer#site-footer {
+	background: #eaeaea;
+	padding: 25px 0;
+	.copyright-social {
+		@media screen and (min-width: 768px) {
+			display: flex;
+			flex-flow: row nowrap;
+			justify-content: space-between;
+			align-items: center;
+		}
+		.copyright {
+			font-family: 'Roboto-Regular';
+			font-size: 14px;
+			line-height: 14px;
+			color: #6f6e6e;
+			@media screen and (max-width: 768px) {
+				text-align: center;
+			}
+		}
+	}
+}
