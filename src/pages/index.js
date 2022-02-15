@@ -15,7 +15,7 @@ const IndexPage = () => {
 				width={200}
 				height={200}
 			/>
-			<a href="https://www.google.com" target="_blank" className="btn ghost">
+			<a href="https://www.google.com" className="btn ghost">
 				This is a button
 			</a>
 		</>
