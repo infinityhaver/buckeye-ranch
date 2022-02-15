@@ -1,0 +1,95 @@
+$blue: 		#99DAEA;
+$p-color: 	#6E6E6E;
+$purple: 	#361E42;
+@font-face {
+	font-family: 'Archer-Bold';
+	src: url('../../fonts/Archer-Bold.woff2') format('woff2'),
+		 url('../../fonts/Archer-Bold.woff') format('woff');
+	font-weight: bold;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: 'Roboto-Bold';
+	src: url('../../fonts/Roboto-Bold.woff2') format('woff2'),
+		 url('../../fonts/Roboto-Bold.woff') format('woff');
+	font-weight: bold;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: 'Roboto-Regular';
+	src: url('../../fonts/Roboto-Regular.woff2') format('woff2'),
+		 url('../../fonts/Roboto-Regular.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+.hero-wrap {
+	@media screen and (min-width: 768px) {
+		display: flex;
+		flex-flow: row nowrap;
+		margin: 75px 0 50px;
+	}
+	@media screen and (max-width: 768px) {
+		margin: 50px 0;
+	}
+	.hero-left {
+		@media screen and (min-width: 768px) {
+			width: 60%;
+			padding-right: 75px;
+			display: flex;
+			flex-flow: column nowrap;
+			justify-content: center;
+			height: 100%;
+		}
+		@media screen and (max-width: 768px) {
+			padding-bottom: 50px;
+		}
+	}
+	.hero-right {
+		@media screen and (min-width: 768px) {
+			width: 40%;
+			display: flex;
+			flex-flow: column nowrap;
+			justify-content: center;
+			height: 100%;
+		}
+		@media screen and (max-width: 768px) {
+			
+		}
+		h4.hero-top {
+			font-family: 'Roboto-Bold';
+			font-size: 28px;
+			line-height: 33px;
+			letter-spacing: 3px;
+			text-transform: uppercase;
+			color: $blue;
+		}
+		h1 {
+			font-family: 'Archer-Bold';
+			font-size: 70px;
+			line-height: 70px;
+			color: $purple;
+			margin-bottom: 25px;
+		}
+		.hero-content {
+			color: $p-color;
+			p {
+				color: $p-color;
+				margin-bottom: 25px;
+			}
+		}
+		.nationwide {
+			padding-top: 25px;
+			h5 {
+				font-family: 'Roboto-Regular';
+				font-size: 18px;
+				line-height: 21px;
+				letter-spacing: 1.93px;
+				text-transform: uppercase;
+				color: $p-color;
+			}
+		}
+	}
+}
