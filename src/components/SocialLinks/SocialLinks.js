@@ -1,6 +1,5 @@
 import React from "react";
 import fontawesome from "@fortawesome/fontawesome";
-import faSolid from "@fortawesome/fontawesome-free-solid";
 import faBrands from "@fortawesome/fontawesome-free-brands";
 import "@fortawesome/fontawesome/styles.css";
 import "./SocialLinks.scss";

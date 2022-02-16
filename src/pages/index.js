@@ -5,8 +5,8 @@ import Header from "../components/Header";
 import Hero from "../components/Hero";
 import CountDown from "../components/CountDown";
 import EventDetails from "../components/EventDetails";
-import EventForm from "../components/EventForm";
-import EventVideo from "../components/EventVideo";
+// import EventForm from "../components/EventForm";
+// import EventVideo from "../components/EventVideo";
 import Buttons from "../components/Buttons";
 import ImageBackgroundContent from "../components/ImageBackgroundContent";
 import Sponsors from "../components/Sponsors";
@@ -30,8 +30,7 @@ const IndexPage = () => {
 							<EventDetails />
 						</div>
 						<div className="form-video-wrap">
-							<EventForm />
-							<EventVideo />
+							
 						</div>
 					</div>
 				</div>
