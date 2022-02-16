@@ -33,15 +33,15 @@ $p-color: #6E6E6E;
 	background-repeat: no-repeat !important;
 	.headline-content-wrap {
 		border-bottom: 1px solid $gray;
-		@media screen and (min-width: 768px) {
+		@media screen and (min-width: 991px) {
 			display: flex;
 			flex-flow: row nowrap;
 		}
-		@media screen and (max-width: 768px) {
-			
+		@media screen and (max-width: 991px) {
+			display: block;
 		}
 		.headline {
-			@media screen and (min-width: 768px) {
+			@media screen and (min-width: 991px) {
 				width: 40%;
 				padding-right: 20%;
 				border-right: 1px solid $gray;
@@ -49,19 +49,21 @@ $p-color: #6E6E6E;
 				flex-flow: column nowrap;
 				justify-content: center;
 			}
-			@media screen and (max-width: 768px) {
-				
+			@media screen and (max-width: 991px) {
+				width: 100%;
 			}
 			h1 {
 				font-family: 'Archer-Bold';
 				color: $purple;
-				@media screen and (min-width: 768px) {
+				@media screen and (min-width: 991px) {
 					font-size: 90px;
 					line-height: 90px;
 					letter-spacing: 0;
 				}
-				@media screen and (max-width: 768px) {
-					
+				@media screen and (max-width: 991px) {
+					font-size: 50px;
+					line-height: 50px;
+					padding-bottom: 25px;
 				}
 			}
 		}
@@ -71,15 +73,16 @@ $p-color: #6E6E6E;
 			line-height: 29px;
 			letter-spacing: 0;
 			color: $p-color;
-			@media screen and (min-width: 768px) {
+			@media screen and (min-width: 991px) {
 				width: 60%;
 				padding: 50px 50px 25px 75px;
 				display: flex;
 				flex-flow: column nowrap;
 				justify-content: center;
 			}
-			@media screen and (max-width: 768px) {
-				
+			@media screen and (max-width: 991px) {
+				width: 100%;
+				padding-bottom: 25px;
 			}
 			p {
 

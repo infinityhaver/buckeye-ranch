@@ -1,0 +1,39 @@
+$purple-bg: #371E42;
+@font-face {
+	font-family: 'Archer-Bold';
+	src: url('../../fonts/Archer-Bold.woff2') format('woff2'),
+		 url('../../fonts/Archer-Bold.woff') format('woff');
+	font-weight: bold;
+	font-style: normal;
+	font-display: swap;
+}
+.purple-bg {
+	background: $purple-bg;
+	@media screen and (min-width: 768px) {
+		padding: 100px 0;
+	}
+	@media screen and (max-width: 768px) {
+		padding: 50px 0;
+	}
+	.sponsors-wrap {
+		h1 {
+			font-family: 'Archer-Bold';
+			color: #fff;
+			padding-bottom: 50px;
+			@media screen and (min-width: 768px) {
+				font-size: 70px;
+				line-height: 70px;
+			}
+			@media screen and (max-width: 768px) {
+				font-size: 50px;
+				line-height: 50px;
+			}
+		}
+		.slide {
+			img {
+				max-width: 100% !important;
+				height: auto !important;
+			}
+		}
+	}
+}

@@ -12,6 +12,25 @@ const Footer = () => {
 						<div className="copyright">
 							© Buckeye Ranch 2022. All Rights Reserved.
 						</div>
+						<div className="footer-nav">
+							<ul>
+								<li>
+									<a href="#!">
+										Email Sign-Up
+									</a>
+								</li>
+								<li>
+									<a href="#!">
+										The Buckeye Ranch Holiday Programs
+									</a>
+								</li>
+								<li>
+									<a href="#!">
+										Privacy Policy
+									</a>
+								</li>
+							</ul>
+						</div>
 						<SocialLinks />
 					</div>
 				</div>

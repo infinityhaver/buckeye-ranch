@@ -7,8 +7,6 @@ const ImageBackgroundContent = () => {
 		<div className="bg-wrap" style={{ background: `linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0)), url(${circle})`}}>
 			<div className="container">
 				<div className="row">
-
-
 					<div className="headline-content-wrap">
 						<div className="headline">
 							<h1>
@@ -24,13 +22,11 @@ const ImageBackgroundContent = () => {
 							</p>
 						</div>
 					</div>
-
 					<div className="narrow-content">
 						<h4>
 							Creating healthy children and youth, strong families, and flourishing communities.
 						</h4>
 					</div>
-
 					<div className="cta">
 						<h3>
 							Questions or interested in sponsoring?
@@ -39,7 +35,6 @@ const ImageBackgroundContent = () => {
 							Contact Jessica Brown at <a href="mailto:jabrown@buckeyeranch.org" target="_blank">jabrown@buckeyeranch.org</a> or <a href="tel:6146346828" target="_blank">(614) 634-6828</a>
 						</p>
 					</div>
-
 				</div>
 			</div>
 		</div>
