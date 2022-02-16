@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../../images/logo.webp";
+import { StaticImage } from "gatsby-plugin-image";
 import "./Header.scss";
 
 const Header = () => {
@@ -7,7 +7,14 @@ const Header = () => {
 	return (
 		<header id="site-header" className="site-header">
 			<a href="/">
-				<img src={logo} alt="The Buckeye Ranch" />
+				<StaticImage
+					src="../../images/logo.png"
+					alt="The Buckeye Ranch Logo"
+					placeholder="none"
+					layout="fixed"
+					width={264}
+					height={56.02}
+				/>
 			</a>
 		</header>
 	)

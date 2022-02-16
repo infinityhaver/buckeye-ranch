@@ -9,27 +9,27 @@ const EventDetails = () => {
 				<h1>
 					Time
 				</h1>
-				<h5>
+				<h2>
 					To Be Determined
-				</h5>
+				</h2>
 			</div>
 
 			<div className="event-detail">
 				<h1>
 					Date
 				</h1>
-				<h5>
+				<h2>
 					May 5th, 2022
-				</h5>
+				</h2>
 			</div>
 
 			<div className="event-detail">
 				<h1>
 					Location
 				</h1>
-				<h5>
+				<h2>
 					KEMBA Live!
-				</h5>
+				</h2>
 				<p>
 					405 Neil Avenue, Columbus, OH 43215
 				</p>
@@ -39,27 +39,27 @@ const EventDetails = () => {
 				<h1>
 					Time
 				</h1>
-				<h5>
+				<h2>
 					To Be Determined
-				</h5>
+				</h2>
 			</div>
 
 			<div className="event-detail">
 				<h1>
 					Ticket Cost
 				</h1>
-				<h5>
+				<h2>
 					$150 / Per Person
-				</h5>
+				</h2>
 			</div>
 
 			<div className="event-detail">
 				<h1>
 					Performing
 				</h1>
-				<h5>
+				<h2>
 					MoJoFlo
-				</h5>
+				</h2>
 				<p>
 					Catering by <span className="big">Cameron Mitchel</span>
 				</p>
@@ -69,9 +69,9 @@ const EventDetails = () => {
 				<h1>
 					Attendance
 				</h1>
-				<h5>
+				<h2>
 					300+ staff, investors, community members
-				</h5>
+				</h2>
 			</div>
 		</div>
 	)

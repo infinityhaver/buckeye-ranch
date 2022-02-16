@@ -1,6 +1,5 @@
 import React from "react";
-import positiveNote from "../../images/a-positive-note-geo.webp";
-import nationwide from "../../images/nationwide.webp";
+import { StaticImage } from "gatsby-plugin-image";
 import "./Hero.scss";
 
 const Hero = () => {
@@ -10,7 +9,12 @@ const Hero = () => {
 			<div className="row">
 				<div className="hero-wrap">
 					<div className="hero-left">
-						<img src={positiveNote} alt="A Positive Note" />
+						<StaticImage
+							src="../../images/a-positive-note-geo.svg"
+							alt="A Positive Note"
+							placeholder="none"
+							layout="full_width"
+						/>
 					</div>
 					<div className="hero-right">
 						<h4 className="hero-top">
@@ -31,7 +35,14 @@ const Hero = () => {
 							<h5>
 								Presented BY:
 							</h5>
-							<img src={nationwide} alt="Nationwide" />
+							<StaticImage
+								src="../../images/nationwide.svg"
+								alt="Nationwide"
+								placeholder="none"
+								layout="fixed"
+								width={350}
+								height={103.96}
+							/>
 						</div>
 					</div>
 				</div>

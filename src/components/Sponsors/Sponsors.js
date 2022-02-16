@@ -1,6 +1,7 @@
 import React from "react";
 import Slider from "react-slick";
 import slideImage1 from "../../images/TBR_60th.webp";
+import { StaticImage } from "gatsby-plugin-image";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import "./Sponsors.scss";
@@ -37,40 +38,75 @@ const Sponsors = () => {
 							Event Sponsors
 						</h1>
 						<Slider {...settings}>
-							<div className="slide">
-								<a href="#!" target="_blank">
-									<img src={slideImage1} />
-								</a>
+							<div className="slide" aria-hidden="true">
+								<StaticImage
+									src="../../images/TBR_60th.webp"
+									alt="Logo"
+									placeholder="none"
+									layout="fixed"
+									width={212}
+									height={44.98}
+								/>
 							</div>
-							<div className="slide">
-								<a href="#!" target="_blank">
-									<img src={slideImage1} />
-								</a>
+							<div className="slide" aria-hidden="true">
+								<StaticImage
+									src="../../images/TBR_60th.webp"
+									alt="Logo"
+									placeholder="none"
+									layout="fixed"
+									width={212}
+									height={44.98}
+								/>
 							</div>
-							<div className="slide">
-								<a href="#!" target="_blank">
-									<img src={slideImage1} />
-								</a>
+							<div className="slide" aria-hidden="true">
+								<StaticImage
+									src="../../images/TBR_60th.webp"
+									alt="Logo"
+									placeholder="none"
+									layout="fixed"
+									width={212}
+									height={44.98}
+								/>
 							</div>
-							<div className="slide">
-								<a href="#!" target="_blank">
-									<img src={slideImage1} />
-								</a>
+							<div className="slide" aria-hidden="true">
+								<StaticImage
+									src="../../images/TBR_60th.webp"
+									alt="Logo"
+									placeholder="none"
+									layout="fixed"
+									width={212}
+									height={44.98}
+								/>
 							</div>
-							<div className="slide">
-								<a href="#!" target="_blank">
-									<img src={slideImage1} />
-								</a>
+							<div className="slide" aria-hidden="true">
+								<StaticImage
+									src="../../images/TBR_60th.webp"
+									alt="Logo"
+									placeholder="none"
+									layout="fixed"
+									width={212}
+									height={44.98}
+								/>
 							</div>
-							<div className="slide">
-								<a href="#!" target="_blank">
-									<img src={slideImage1} />
-								</a>
+							<div className="slide" aria-hidden="true">
+								<StaticImage
+									src="../../images/TBR_60th.webp"
+									alt="Logo"
+									placeholder="none"
+									layout="fixed"
+									width={212}
+									height={44.98}
+								/>
 							</div>
-							<div className="slide">
-								<a href="#!" target="_blank">
-									<img src={slideImage1} />
-								</a>
+							<div className="slide" aria-hidden="true">
+								<StaticImage
+									src="../../images/TBR_60th.webp"
+									alt="Logo"
+									placeholder="none"
+									layout="fixed"
+									width={212}
+									height={44.98}
+								/>
 							</div>
 						</Slider>
 					</div>
