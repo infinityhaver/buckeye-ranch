@@ -1,7 +1,8 @@
 module.exports = {
 	siteMetadata: {
 		title: `Buckeye Ranch`,
-		siteUrl: `https://buckeyeranchmain.gatsbyjs.io/`,
+//		siteUrl: `https://buckeyeranchmain.gatsbyjs.io/`,
+		siteUrl: `https://buckeye-ranch.digitalocean.app/`,
 	},
 	plugins: [
 		`gatsby-transformer-sharp`,
