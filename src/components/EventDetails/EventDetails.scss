@@ -1,0 +1,77 @@
+$dark-blue: #361E42;
+$gray: #979797;
+@font-face {
+	font-family: 'Archer-Bold';
+	src: url('../../fonts/Archer-Bold.woff2') format('woff2'),
+		 url('../../fonts/Archer-Bold.woff') format('woff');
+	font-weight: bold;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: 'Roboto-Medium';
+	src: url('../../fonts/Roboto-Medium.woff2') format('woff2'),
+		 url('../../fonts/Roboto-Medium.woff') format('woff');
+	font-weight: 500;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: 'Roboto-Regular';
+	src: url('../../fonts/Roboto-Regular.woff2') format('woff2'),
+		 url('../../fonts/Roboto-Regular.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+.event-details {
+	.event-detail {
+		border-bottom: 1px solid $gray;
+		@media screen and (min-width: 768px) {
+			padding: 50px 0;
+		}
+		@media screen and (max-width: 768px) {
+			padding: 50px 0;
+		}
+		&:first-of-type {
+			padding-top: 0;
+		}
+		&:last-of-type {
+			border-bottom: none;
+		}
+		h1 {
+			font-family: 'Archer-Bold';
+			color: $dark-blue;
+			@media screen and (min-width: 768px) {
+				font-size: 70px;
+				line-height: 70px;
+			}
+			@media screen and (max-width: 768px) {
+				font-size: 50px;
+				line-height: 50px;
+			}
+		}
+		h5 {
+			font-family: 'Roboto-Regular';
+			font-size: 28px;
+			line-height: 33px;
+			letter-spacing: 3px;
+			text-transform: uppercase;
+			color: #000;
+		}
+		p {
+			font-family: 'Roboto-Medium';
+			font-size: 18px;
+			line-height: 21px;
+			letter-spacing: 1px;
+			color: #000;
+			span.big {
+				font-family: 'Roboto-Regular';
+				font-size: 28px;
+				line-height: 33px;
+				letter-spacing: 3px;
+				text-transform: uppercase;
+			}
+		}
+	}
+}

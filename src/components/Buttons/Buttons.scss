@@ -1,0 +1,73 @@
+$brand: #D34727;
+@font-face {
+	font-family: 'Roboto-Bold';
+	src: url('../../fonts/Roboto-Bold.woff2') format('woff2'),
+		 url('../../fonts/Roboto-Bold.woff') format('woff');
+	font-weight: bold;
+	font-style: normal;
+	font-display: swap;
+}
+.buttons-wrap {
+	@media screen and (min-width: 768px) {
+		display: flex;
+		flex-flow: row nowrap;
+		padding-bottom: 50px;
+	}
+	@media screen and (max-width: 768px) {
+		padding-bottom: 50px;
+	}
+	.buckeye-button {
+		@media screen and (min-width: 768px) {
+			width: 32%;
+			margin-right: 2%;
+			&:nth-of-type(3n) {
+				margin-right: 0;
+			}
+		}
+		@media screen and (max-width: 768px) {
+			padding-bottom: 15px;
+			&:last-of-type {
+				padding-bottom: 0;
+			}
+		}
+	}
+}
+.btn {
+	display: flex !important;
+	flex-flow: column nowrap;
+	justify-content: center;
+	transition: all 0.5s ease;
+	font-size: 18px;
+	line-height: 21px;
+	letter-spacing: 1.93px;
+	font-family: 'Roboto-Bold';
+	text-transform: uppercase;
+	border-radius: 10px;
+	padding: 20px 20px;
+	height: 100%;
+	&.solid {
+		background: $brand;
+		color: #fff;
+		border: 1px solid $brand;
+		&:hover {
+			background: transparent;
+			color: $brand;
+		}
+	}
+    &.ghost {
+		background: #fff;
+		color: $brand;
+		border: 1px solid $brand;
+		&:hover {
+			background: $brand;
+			color: #fff;
+		}
+	}
+	&.btn-block {
+		display: block;
+		clear: both;
+		float: none;
+		width: 100%;
+		text-align: center;
+	}
+}

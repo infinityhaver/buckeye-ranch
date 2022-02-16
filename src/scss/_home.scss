@@ -1,0 +1,26 @@
+html,
+body {
+	background: rgba(206, 162, 120, .06);
+}
+.event-info-wrap {
+	@media screen and (min-width: 991px) {
+		display: flex;
+		flex-flow: row nowrap;
+		justify-content: space-between;
+		padding: 50px 0;
+	}
+	@media screen and (max-width: 991px) {
+		padding: 50px 15px;
+	}
+	.event-info {
+		@media screen and (min-width: 991px) {
+			padding-right: 75px;
+			width: calc(100% - 560px);
+		}
+	}
+	.form-video-wrap {
+		@media screen and (min-width: 991px) {
+			width: 560px;
+		}
+	}
+}
