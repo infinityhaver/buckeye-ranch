@@ -8,7 +8,6 @@ Capfile
 .bak
 dist
 build
-package-lock.json
 
 # Compiled source #
 ###################
