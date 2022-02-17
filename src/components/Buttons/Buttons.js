@@ -10,28 +10,19 @@ const Buttons = () => {
 				<div className="row">
 					<div className="buttons-wrap">
 						<div className="buckeye-button">
-							<Link 
-								to="#!"
-								className="btn solid btn-block"
-							>
+							<a className="btn solid btn-block" href="https://host.nxt.blackbaud.com/registration-form/?formId=e0c16b73-e831-41d9-a813-4c542055aa7b&envId=p-Q32elh_Ch0OVnltY6_hWkw" target="_blank">
 								Become a Sponsor
-							</Link>
+							</a>
 						</div>
 						<div className="buckeye-button">
-							<Link 
-								to="#!"
-								className="btn solid btn-block"
-							>
+							<a className="btn solid btn-block" href="https://host.nxt.blackbaud.com/registration-form/?formId=ed32c152-71a8-4c52-a898-de2693c5a310&envId=p-Q32elh_Ch0OVnltY6_hWkw" target="_blank">
 								Join the Honorary Committee
-							</Link>
+							</a>
 						</div>
 						<div className="buckeye-button">
-							<Link 
-								to="#!"
-								className="btn solid btn-block"
-							>
+							<a className="btn solid btn-block" href="https://host.nxt.blackbaud.com/registration-form/?formId=623577b9-5476-4874-a3e4-c287dd93ce10&envId=p-Q32elh_Ch0OVnltY6_hWkw" target="_blank">
 								Community Partner Package
-							</Link>
+							</a>
 						</div>
 					</div>
 				</div>
