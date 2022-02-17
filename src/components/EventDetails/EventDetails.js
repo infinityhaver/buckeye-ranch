@@ -13,7 +13,6 @@ const EventDetails = () => {
 					To Be Determined
 				</h2>
 			</div>
-
 			<div className="event-detail">
 				<h1>
 					Date
@@ -22,7 +21,6 @@ const EventDetails = () => {
 					May 5th, 2022
 				</h2>
 			</div>
-
 			<div className="event-detail">
 				<h1>
 					Location
@@ -43,7 +41,6 @@ const EventDetails = () => {
 					To Be Determined
 				</h2>
 			</div>
-
 			<div className="event-detail">
 				<h1>
 					Ticket Cost
@@ -52,7 +49,6 @@ const EventDetails = () => {
 					$150 / Per Person
 				</h2>
 			</div>
-
 			<div className="event-detail">
 				<h1>
 					Performing
@@ -64,7 +60,6 @@ const EventDetails = () => {
 					Catering by <span className="big">Cameron Mitchel</span>
 				</p>
 			</div>
-			
 			<div className="event-detail">
 				<h1>
 					Attendance

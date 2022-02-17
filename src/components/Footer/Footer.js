@@ -15,17 +15,17 @@ const Footer = () => {
 						<div className="footer-nav">
 							<ul>
 								<li>
-									<a href="#!">
+									<a href="https://www.buckeyeranch.org/email-sign-up.html" target="_blank">
 										Email Sign-Up
 									</a>
 								</li>
 								<li>
-									<a href="#!">
+									<a href="https://www.buckeyeranch.org/adopt-a-family/" target="_blank">
 										The Buckeye Ranch Holiday Programs
 									</a>
 								</li>
 								<li>
-									<a href="#!">
+									<a href="https://www.buckeyeranch.org/privacy-policy.html" target="_blank">
 										Privacy Policy
 									</a>
 								</li>

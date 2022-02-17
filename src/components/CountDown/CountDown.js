@@ -51,10 +51,12 @@ function CountDown() {
 		);
 	});
 	return (
-		<div className="container">
-			<div className="row">
-				<div className="countdown-wrap">
-					{timerComponents.length ? timerComponents : <span>Time's up!</span>}
+		<div className="countdown-container">
+			<div className="container">
+				<div className="row">
+					<div className="countdown-wrap">
+						{timerComponents.length ? timerComponents : <span>Time's up!</span>}
+					</div>
 				</div>
 			</div>
 		</div>

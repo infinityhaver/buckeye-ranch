@@ -25,6 +25,9 @@ $purple: 	#361E42;
 	font-style: normal;
 	font-display: swap;
 }
+.hero-container {
+	background: rgba(206, 162, 120, .06);
+}
 .hero-wrap {
 	@media screen and (min-width: 768px) {
 		display: flex;
@@ -89,6 +92,9 @@ $purple: 	#361E42;
 				letter-spacing: 1.93px;
 				text-transform: uppercase;
 				color: $p-color;
+			}
+			img {
+				max-width: 350px !important;
 			}
 		}
 	}

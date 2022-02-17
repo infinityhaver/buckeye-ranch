@@ -43,9 +43,7 @@ const Sponsors = () => {
 									src="../../images/TBR_60th.webp"
 									alt="Logo"
 									placeholder="none"
-									layout="fixed"
-									width={212}
-									height={44.98}
+									layout="full_width"
 								/>
 							</div>
 							<div className="slide" aria-hidden="true">
@@ -53,9 +51,7 @@ const Sponsors = () => {
 									src="../../images/TBR_60th.webp"
 									alt="Logo"
 									placeholder="none"
-									layout="fixed"
-									width={212}
-									height={44.98}
+									layout="full_width"
 								/>
 							</div>
 							<div className="slide" aria-hidden="true">
@@ -63,9 +59,7 @@ const Sponsors = () => {
 									src="../../images/TBR_60th.webp"
 									alt="Logo"
 									placeholder="none"
-									layout="fixed"
-									width={212}
-									height={44.98}
+									layout="full_width"
 								/>
 							</div>
 							<div className="slide" aria-hidden="true">
@@ -73,9 +67,7 @@ const Sponsors = () => {
 									src="../../images/TBR_60th.webp"
 									alt="Logo"
 									placeholder="none"
-									layout="fixed"
-									width={212}
-									height={44.98}
+									layout="full_width"
 								/>
 							</div>
 							<div className="slide" aria-hidden="true">
@@ -83,9 +75,7 @@ const Sponsors = () => {
 									src="../../images/TBR_60th.webp"
 									alt="Logo"
 									placeholder="none"
-									layout="fixed"
-									width={212}
-									height={44.98}
+									layout="full_width"
 								/>
 							</div>
 							<div className="slide" aria-hidden="true">
@@ -93,9 +83,7 @@ const Sponsors = () => {
 									src="../../images/TBR_60th.webp"
 									alt="Logo"
 									placeholder="none"
-									layout="fixed"
-									width={212}
-									height={44.98}
+									layout="full_width"
 								/>
 							</div>
 							<div className="slide" aria-hidden="true">
@@ -103,9 +91,7 @@ const Sponsors = () => {
 									src="../../images/TBR_60th.webp"
 									alt="Logo"
 									placeholder="none"
-									layout="fixed"
-									width={212}
-									height={44.98}
+									layout="full_width"
 								/>
 							</div>
 						</Slider>
