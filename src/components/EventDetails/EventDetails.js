@@ -46,7 +46,7 @@ const EventDetails = () => {
 					Ticket Cost
 				</h1>
 				<h2>
-					$150 / Per Person
+					$150 Per Person
 				</h2>
 			</div>
 			<div className="event-detail">
@@ -57,7 +57,7 @@ const EventDetails = () => {
 					MoJoFlo
 				</h2>
 				<p>
-					Catering by <span className="big">Cameron Mitchel</span>
+					Catering by <span className="big">Cameron Mitchell</span>
 				</p>
 			</div>
 			<div className="event-detail">

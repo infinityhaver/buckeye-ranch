@@ -1,6 +1,5 @@
 import React from "react";
 import Slider from "react-slick";
-import slideImage1 from "../../images/TBR_60th.webp";
 import { StaticImage } from "gatsby-plugin-image";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -17,6 +16,7 @@ const Sponsors = () => {
 		speed: 1000,
 		slidesToShow: 4,
 		slidesToScroll: 4,
+		adaptiveHeight: false,
 		responsive: [
 			{
 				breakpoint: 768,
@@ -40,7 +40,7 @@ const Sponsors = () => {
 						<Slider {...settings}>
 							<div className="slide" aria-hidden="true">
 								<StaticImage
-									src="../../images/TBR_60th.webp"
+									src="../../images/sponsor-logos/370876186-bailey-cavalieri-llc.png"
 									alt="Logo"
 									placeholder="none"
 									layout="full_width"
@@ -48,7 +48,7 @@ const Sponsors = () => {
 							</div>
 							<div className="slide" aria-hidden="true">
 								<StaticImage
-									src="../../images/TBR_60th.webp"
+									src="../../images/sponsor-logos/370876199-ice-miller-logo_dark_gray_4c-c-2020.png"
 									alt="Logo"
 									placeholder="none"
 									layout="full_width"
@@ -56,7 +56,7 @@ const Sponsors = () => {
 							</div>
 							<div className="slide" aria-hidden="true">
 								<StaticImage
-									src="../../images/TBR_60th.webp"
+									src="../../images/sponsor-logos/370876215-state-bank-and-trust.png"
 									alt="Logo"
 									placeholder="none"
 									layout="full_width"
@@ -64,7 +64,7 @@ const Sponsors = () => {
 							</div>
 							<div className="slide" aria-hidden="true">
 								<StaticImage
-									src="../../images/TBR_60th.webp"
+									src="../../images/sponsor-logos/370876238-zipline-logistics-logo.png"
 									alt="Logo"
 									placeholder="none"
 									layout="full_width"
@@ -72,7 +72,7 @@ const Sponsors = () => {
 							</div>
 							<div className="slide" aria-hidden="true">
 								<StaticImage
-									src="../../images/TBR_60th.webp"
+									src="../../images/sponsor-logos/370876193-encova-logo-color.png"
 									alt="Logo"
 									placeholder="none"
 									layout="full_width"
@@ -80,7 +80,7 @@ const Sponsors = () => {
 							</div>
 							<div className="slide" aria-hidden="true">
 								<StaticImage
-									src="../../images/TBR_60th.webp"
+									src="../../images/sponsor-logos/370876201-kokosing.png"
 									alt="Logo"
 									placeholder="none"
 									layout="full_width"
@@ -88,7 +88,87 @@ const Sponsors = () => {
 							</div>
 							<div className="slide" aria-hidden="true">
 								<StaticImage
-									src="../../images/TBR_60th.webp"
+									src="../../images/sponsor-logos/370876220-state-auto-2color-horiz-updated-4-2016.png"
+									alt="Logo"
+									placeholder="none"
+									layout="full_width"
+								/>
+							</div>
+							<div className="slide" aria-hidden="true">
+								<StaticImage
+									src="../../images/sponsor-logos/MWAutoGroup_ChevyBuickGMC_HeadlineLogos_Stacked.png"
+									alt="Logo"
+									placeholder="none"
+									layout="full_width"
+								/>
+							</div>
+							<div className="slide" aria-hidden="true">
+								<StaticImage
+									src="../../images/sponsor-logos/370876194-fusion-alliance-2020.png"
+									alt="Logo"
+									placeholder="none"
+									layout="full_width"
+								/>
+							</div>
+							<div className="slide" aria-hidden="true">
+								<StaticImage
+									src="../../images/sponsor-logos/370876205-leaderpromos-logo-2018-pma-rgb-w_lp-h.png"
+									alt="Logo"
+									placeholder="none"
+									layout="full_width"
+								/>
+							</div>
+							<div className="slide" aria-hidden="true">
+								<StaticImage
+									src="../../images/sponsor-logos/370876227-united-health-care.png"
+									alt="Logo"
+									placeholder="none"
+									layout="full_width"
+								/>
+							</div>
+							<div className="slide" aria-hidden="true">
+								<StaticImage
+									src="../../images/sponsor-logos/370876196-grange-insurance-09-2020.png"
+									alt="Logo"
+									placeholder="none"
+									layout="full_width"
+								/>
+							</div>
+							<div className="slide" aria-hidden="true">
+								<StaticImage
+									src="../../images/sponsor-logos/370876206-ohio-custodial-management-logo.png"
+									alt="Logo"
+									placeholder="none"
+									layout="full_width"
+								/>
+							</div>
+							<div className="slide" aria-hidden="true">
+								<StaticImage
+									src="../../images/sponsor-logos/370876229-usbank-rgb.png"
+									alt="Logo"
+									placeholder="none"
+									layout="full_width"
+								/>
+							</div>
+							<div className="slide" aria-hidden="true">
+								<StaticImage
+									src="../../images/sponsor-logos/370876197-ice-miller.png"
+									alt="Logo"
+									placeholder="none"
+									layout="full_width"
+								/>
+							</div>
+							<div className="slide" aria-hidden="true">
+								<StaticImage
+									src="../../images/sponsor-logos/370876211-pnc-color-logo.png"
+									alt="Logo"
+									placeholder="none"
+									layout="full_width"
+								/>
+							</div>
+							<div className="slide" aria-hidden="true">
+								<StaticImage
+									src="../../images/sponsor-logos/370876236-wesbanco-color-logo-vector.png"
 									alt="Logo"
 									placeholder="none"
 									layout="full_width"
