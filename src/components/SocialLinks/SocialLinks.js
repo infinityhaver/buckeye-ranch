@@ -21,7 +21,7 @@ const SocialLinks = () => {
 				<a dangerouslySetInnerHTML={{__html: '<i class="fab fa-instagram"></i><span>Buckeye Ranch Instagram</span>'}} href="https://www.instagram.com/thebuckeyeranch/" target="_blank" rel="noreferrer" />
 			</li>
 			<li>
-				<a dangerouslySetInnerHTML={{__html: '<i class="fab fa-youtube"></i><span>Buckeye Ranch YouTube</span>'}} href="https://www.youtube.com/channel/UCP6CkY78b1oJh0PSEAVFWYg" target="_blank" rel="noreferrer" />
+				<a dangerouslySetInnerHTML={{__html: '<i class="fab fa-vimeo-v"></i><span>Buckeye Ranch Vimeo</span>'}} href="https://vimeo.com/user127328204" target="_blank" rel="noreferrer" />
 			</li>
 		</ul>
 	)
