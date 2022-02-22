@@ -10,7 +10,7 @@ const EventDetails = () => {
 					Time
 				</h1>
 				<h2>
-					To Be Determined
+					6:30 PM
 				</h2>
 			</div>
 			<div className="event-detail">
