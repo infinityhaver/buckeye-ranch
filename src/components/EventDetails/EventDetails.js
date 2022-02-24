@@ -32,15 +32,6 @@ const EventDetails = () => {
 					405 Neil Avenue, Columbus, OH 43215
 				</p>
 			</div>
-
-			<div className="event-detail">
-				<h1>
-					Time
-				</h1>
-				<h2>
-					To Be Determined
-				</h2>
-			</div>
 			<div className="event-detail">
 				<h1>
 					Ticket Cost
