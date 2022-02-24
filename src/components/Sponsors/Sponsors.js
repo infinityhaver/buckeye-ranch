@@ -80,7 +80,7 @@ const Sponsors = () => {
 							</div>
 							<div className="slide" aria-hidden="true">
 								<StaticImage
-									src="../../images/sponsor-logos/370876201-kokosing.png"
+									src="../../images/sponsor-logos/372881383-kokosing-corna-White.png"
 									alt="Logo"
 									placeholder="none"
 									layout="full_width"
@@ -144,7 +144,7 @@ const Sponsors = () => {
 							</div>
 							<div className="slide" aria-hidden="true">
 								<StaticImage
-									src="../../images/sponsor-logos/370876229-usbank-rgb.png"
+									src="../../images/sponsor-logos/US-Bank-Logo-White.png"
 									alt="Logo"
 									placeholder="none"
 									layout="full_width"
@@ -169,6 +169,62 @@ const Sponsors = () => {
 							<div className="slide" aria-hidden="true">
 								<StaticImage
 									src="../../images/sponsor-logos/370876236-wesbanco-color-logo-vector.png"
+									alt="Logo"
+									placeholder="none"
+									layout="full_width"
+								/>
+							</div>
+							<div className="slide" aria-hidden="true">
+								<StaticImage
+									src="../../images/sponsor-logos/372881356-cameron-mitchell-groupplain-1-White.png"
+									alt="Logo"
+									placeholder="none"
+									layout="full_width"
+								/>
+							</div>
+							<div className="slide" aria-hidden="true">
+								<StaticImage
+									src="../../images/sponsor-logos/372881366-delta-dental-White.png"
+									alt="Logo"
+									placeholder="none"
+									layout="full_width"
+								/>
+							</div>
+							<div className="slide" aria-hidden="true">
+								<StaticImage
+									src="../../images/sponsor-logos/372881377-kemba-logo_full-01-White.png"
+									alt="Logo"
+									placeholder="none"
+									layout="full_width"
+								/>
+							</div>
+							<div className="slide" aria-hidden="true">
+								<StaticImage
+									src="../../images/sponsor-logos/cbiz-White.png"
+									alt="Logo"
+									placeholder="none"
+									layout="full_width"
+								/>
+							</div>
+							<div className="slide" aria-hidden="true">
+								<StaticImage
+									src="../../images/sponsor-logos/372881361-cardinal-logo-White.png"
+									alt="Logo"
+									placeholder="none"
+									layout="full_width"
+								/>
+							</div>
+							<div className="slide" aria-hidden="true">
+								<StaticImage
+									src="../../images/sponsor-logos/372881374-g_j-logos-02-White.png"
+									alt="Logo"
+									placeholder="none"
+									layout="full_width"
+								/>
+							</div>
+							<div className="slide" aria-hidden="true">
+								<StaticImage
+									src="../../images/sponsor-logos/372881386-rosati-logo-White.png"
 									alt="Logo"
 									placeholder="none"
 									layout="full_width"
