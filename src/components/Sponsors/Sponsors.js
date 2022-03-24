@@ -21,7 +21,6 @@ const Sponsors = () => {
 			{
 				breakpoint: 768,
 				settings: {
-					slidesToShow: 2,
 					centerMode: false,
 					slidesToShow: 2
 				}
@@ -227,6 +226,52 @@ const Sponsors = () => {
 									src="../../images/sponsor-logos/372881386-rosati-logo-White.png"
 									alt="Logo"
 									placeholder="none"
+									layout="full_width"
+								/>
+							</div>
+							<div className="slide" areia-hidden="true">
+								<StaticImage 
+										src="../../images/sponsor-logos/380094464-bc-at-law-logo-2022.png"
+										alt="Logo"
+										layout="full_width"
+									/>
+
+							</div>
+							<div className="slide" areia-hidden="true">
+								<StaticImage 
+										src="../../images/sponsor-logos/380094483-kroger-logo-2020.png"
+										alt="Logo"
+										layout="full_width"
+									/>
+
+							</div>
+							<div className="slide" areia-hidden="true">
+								<StaticImage 
+										src="../../images/sponsor-logos/380094517-quantum-logo-3.png"
+										alt="Logo"
+										layout="full_width"
+									/>
+
+							</div>
+							<div className="slide" areia-hidden="true">
+								<StaticImage 
+										src="../../images/sponsor-logos/380094474-dr-david-and-barbie-kristal.png"
+										alt="Logo"
+										layout="full_width"
+									/>
+
+							</div>
+							<div className="slide" areia-hidden="true">
+								<StaticImage 
+									src="../../images/sponsor-logos/380094491-overmyer-hall-and-associates-cmyk.png"
+									alt="Logo"
+									layout="full_width"
+								/>
+							</div>
+							<div className="slide" areia-hidden="true">
+								<StaticImage 
+									src="../../images/sponsor-logos/380429006-arches01.png"
+									alt="Logo"
 									layout="full_width"
 								/>
 							</div>
