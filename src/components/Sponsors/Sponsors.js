@@ -275,6 +275,13 @@ const Sponsors = () => {
 									layout="full_width"
 								/>
 							</div>
+							<div className="slide" areia-hidden="true">
+								<StaticImage 
+									src="../../images/sponsor-logos/hylant-logo-color-large.png"
+									alt="Logo"
+									layout="full_width"
+								/>
+							</div>
 						</Slider>
 					</div>
 				</div>
