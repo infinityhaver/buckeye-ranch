@@ -39,14 +39,6 @@ const Sponsors = () => {
 						<Slider {...settings}>
 							<div className="slide" aria-hidden="true">
 								<StaticImage
-									src="../../images/sponsor-logos/370876186-bailey-cavalieri-llc.png"
-									alt="Logo"
-									placeholder="none"
-									layout="full_width"
-								/>
-							</div>
-							<div className="slide" aria-hidden="true">
-								<StaticImage
 									src="../../images/sponsor-logos/370876199-ice-miller-logo_dark_gray_4c-c-2020.png"
 									alt="Logo"
 									placeholder="none"
@@ -279,6 +271,22 @@ const Sponsors = () => {
 								<StaticImage 
 									src="../../images/sponsor-logos/hylant-logo-color-large.png"
 									alt="Logo"
+									layout="full_width"
+								/>
+							</div>
+							<div className="slide" aria-hidden="true">
+								<StaticImage
+									src="../../images/sponsor-logos/2021-New-Wellnes-Coaches-Logo-Large-(12)-(1).png"
+									alt="Logo"
+									placeholder="none"
+									layout="full_width"
+								/>
+							</div>
+							<div className="slide" aria-hidden="true">
+								<StaticImage
+									src="../../images/sponsor-logos/LOGO@2x-(1).png"
+									alt="Logo"
+									placeholder="none"
 									layout="full_width"
 								/>
 							</div>
