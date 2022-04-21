@@ -29,6 +29,9 @@ const Hero = () => {
 									Join us for this celebration of The Buckeye Ranch's 60th anniversary where we will lift up the powerful stories of our children, youth, and families. Their stories will be coupled with musical acts to honor these lived experiences and share the impact of this critical work with our community. 
 								</p>
 								<p>
+									<b><i>Dress: Casual</i></b>
+								</p>
+								<p>
 									<b><i>Please note: alcohol will be served at this event.</i></b>
 								</p>
 							</div>
