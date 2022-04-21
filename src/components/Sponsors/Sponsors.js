@@ -290,6 +290,30 @@ const Sponsors = () => {
 									layout="full_width"
 								/>
 							</div>
+							<div className="slide" aria-hidden="true">
+								<StaticImage
+									src="../../images/sponsor-logos/KJK_Logo_RGB_2c.png"
+									alt="Logo"
+									placeholder="none"
+									layout="full_width"
+								/>
+							</div>
+							<div className="slide" aria-hidden="true">
+								<StaticImage
+									src="../../images/sponsor-logos/Simon_Say_Stamp_logo_with_dog_web-01.png"
+									alt="Logo"
+									placeholder="none"
+									layout="full_width"
+								/>
+							</div>
+							<div className="slide" aria-hidden="true">
+								<StaticImage
+									src="../../images/sponsor-logos/Velosio_Logo-Tag-01.png"
+									alt="Logo"
+									placeholder="none"
+									layout="full_width"
+								/>
+							</div>
 						</Slider>
 					</div>
 				</div>
