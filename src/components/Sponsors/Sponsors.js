@@ -247,14 +247,6 @@ const Sponsors = () => {
 							</div>
 							<div className="slide" areia-hidden="true">
 								<StaticImage 
-										src="../../images/sponsor-logos/380094474-dr-david-and-barbie-kristal.png"
-										alt="Logo"
-										layout="full_width"
-									/>
-
-							</div>
-							<div className="slide" areia-hidden="true">
-								<StaticImage 
 									src="../../images/sponsor-logos/380094491-overmyer-hall-and-associates-cmyk.png"
 									alt="Logo"
 									layout="full_width"
@@ -309,6 +301,38 @@ const Sponsors = () => {
 							<div className="slide" aria-hidden="true">
 								<StaticImage
 									src="../../images/sponsor-logos/Velosio_Logo-Tag-01.png"
+									alt="Logo"
+									placeholder="none"
+									layout="full_width"
+								/>
+							</div>
+							<div className="slide" aria-hidden="true">
+								<StaticImage
+									src="../../images/sponsor-logos/Keim.png"
+									alt="Logo"
+									placeholder="none"
+									layout="full_width"
+								/>
+							</div>
+							<div className="slide" aria-hidden="true">
+								<StaticImage
+									src="../../images/sponsor-logos/Kristal.png"
+									alt="Logo"
+									placeholder="none"
+									layout="full_width"
+								/>
+							</div>
+							<div className="slide" aria-hidden="true">
+								<StaticImage
+									src="../../images/sponsor-logos/Robinette.png"
+									alt="Logo"
+									placeholder="none"
+									layout="full_width"
+								/>
+							</div>
+							<div className="slide" aria-hidden="true">
+								<StaticImage
+									src="../../images/sponsor-logos/Wilder.png"
 									alt="Logo"
 									placeholder="none"
 									layout="full_width"
