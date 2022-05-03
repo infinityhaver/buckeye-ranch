@@ -5,7 +5,7 @@ function CountDown() {
 	const calculateTimeLeft = () => {
 
 		// Set the countdown target date right here
-		let countDownDate = '2022-05-05';
+		let countDownDate = '2022-05-06';
 
 		const difference = +new Date(`${countDownDate}`) - +new Date();
 		let timeLeft = {};
