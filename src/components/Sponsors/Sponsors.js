@@ -261,7 +261,7 @@ const Sponsors = () => {
 							</div>
 							<div className="slide" areia-hidden="true">
 								<StaticImage 
-									src="../../images/sponsor-logos/hylant-logo-color-large.png"
+									src="../../images/sponsor-logos/Hylant-Logo-Color-large_JPG-file-format-(2).png"
 									alt="Logo"
 									layout="full_width"
 								/>
@@ -333,6 +333,14 @@ const Sponsors = () => {
 							<div className="slide" aria-hidden="true">
 								<StaticImage
 									src="../../images/sponsor-logos/Wilder.png"
+									alt="Logo"
+									placeholder="none"
+									layout="full_width"
+								/>
+							</div>
+							<div className="slide" aria-hidden="true">
+								<StaticImage
+									src="../../images/sponsor-logos/PWM-Logo_RGB(1).png"
 									alt="Logo"
 									placeholder="none"
 									layout="full_width"
